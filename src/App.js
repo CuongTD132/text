@@ -17,7 +17,8 @@ function App() {
         <div class="container">
           <div class="envelope"></div>
           <div class="card">
-            <h1 class="message"><span>Happy Valentine's Day!</span></h1>
+            <h1 class="message"><span>Happy Valentine's Day! <br></br> Thu Thủy </span></h1>
+            
             <div class="pikachu">
               <div class="limbs"></div>
               <div class="heart"></div>
