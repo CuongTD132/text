@@ -1,6 +1,8 @@
 import './App.css';
-
+import song from './CanWeLove.wav';
 function App() {
+  let sound = new Audio(song);
+sound.play(); 
   return (
     <div className="App">
       <div class="title">
@@ -13,12 +15,10 @@ function App() {
         <div class="heart-7 heart"></div>
       </div>
       <div class="main">
-
         <div class="container">
           <div class="envelope"></div>
           <div class="card">
             <h1 class="message"><span>Happy Valentine's Day! <br></br> Thu Thủy </span></h1>
-            
             <div class="pikachu">
               <div class="limbs"></div>
               <div class="heart"></div>
@@ -31,6 +31,7 @@ function App() {
           <div class="shadow"></div>
         </div>
       </div>
+      
     </div>
   );
 }
