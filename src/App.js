@@ -1,10 +1,11 @@
 import './App.css';
-import song from './CanWeLove.wav';
 function App() {
-  let sound = new Audio(song);
-sound.play(); 
+  
   return (
     <div className="App">
+      <audio autoplay>
+        <source src='music.mp3'></source>
+      </audio>
       <div class="title">
         <div class="heart-1 heart"></div>
         <div class="heart-2 heart"></div>
@@ -31,7 +32,6 @@ sound.play();
           <div class="shadow"></div>
         </div>
       </div>
-      
     </div>
   );
 }
