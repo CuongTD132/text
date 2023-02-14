@@ -905,7 +905,7 @@ and (max-device-width: 1024px) {
     position: absolute;
     background: #ff8fa3;
     height: 25vmin;
-    width: 310px;
+    width: 46vmin;
     border:5px solid white;
     border-radius:10px;
     box-shadow: 0 0 100px rgba(0,0,0,.4);
@@ -913,7 +913,7 @@ and (max-device-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    left: 1vmin;
+    left: 0.5vmin;
     top: 0vmin;
     
     animation: slide-rev 0.4s ease-out;
@@ -922,7 +922,7 @@ and (max-device-width: 1024px) {
   .message {
     position: absolute;
     top: 1vmin;
-    font-size:23px;
+    font-size:3vmin;
     color: #800f2f;
     font-family: 'Pacifico', cursive;
     text-align: center;
@@ -944,7 +944,7 @@ and (max-device-width: 1024px) {
   
   .message:hover:before {
     content:"Remember not to eat too much candy. Cause you're sweet enough already!";
-    font-size:20px;
+    font-size:2.8vmin;
     
   
   }
@@ -1034,9 +1034,10 @@ and (max-device-width: 1024px) {
   }
   
   .limbs::after {
-    content: '....Hover .....there↑';
+    content: '__Hover ___there↑';
+    word-spacing: 50px;
     font-family: 'Pacifico', cursive;
-    font-size: 18px;
+    font-size: 2.55vmin;
     position: absolute;
     width: 0; 
     height: 0; 
