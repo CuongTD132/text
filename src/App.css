@@ -179,7 +179,7 @@
   }
   
   .limbs::after {
-    content: 'Hover ....there↑';
+    content: 'Hover .....there↑';
     font-size: 10px;
     font-family: 'Pacifico', cursive;
     position: absolute;
