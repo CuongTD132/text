@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div class="title">
         <div class="heart-1 heart"></div>
         <div class="heart-2 heart"></div>
